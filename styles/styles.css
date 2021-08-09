@@ -1,0 +1,28 @@
+body {
+    background: -webkit-linear-gradient(bottom left, #fff2df, #fbefcc);
+    widows: unset;
+}
+
+.form {
+    background-color: #f9ccac;
+    border: 0.4em solid #f4a688;
+    margin: 3em auto;
+    padding: 1em;
+    text-align: center;
+    width: 35%;
+  }
+
+.item {
+    border: 0.1em solid #e0876a;
+    
+  }
+
+.itemtitle {
+    color: #e0876a;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.button {
+    border-radius: 1em;
+}

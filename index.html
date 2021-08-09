@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <title>Formulario utilizando HTML y CSS</title>
+</head>
+<body>
+    <form class="form">
+        <fieldset class="item">
+            <legend class="itemtitle">Your Details:</legend>
+            <label>Name: <input type="text" name= "name" required> </label><br><br>
+            <label>Email:</label> <input type="email" name= "email" required> </label>
+        </fieldset><br>
+        <fieldset class="item">
+            <legend class="itemtitle">Your Review:</legend><br>
+            <label>How did you hear about us?</label>
+            <select name="where" id="where">
+                <option value="google">Google</option>
+                <option value="ourweb">Our Website</option>
+                <option value="friend">Friend</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <label>Would you visit again?</label><br>
+            <label for="yes"><input type="radio" name="visit" value="yes" id="yes">Yes</label>
+            <label for="no"><input type="radio" name="visit" value="no" id="no">No</label>
+            <label for="maybe"><input type="radio" name="visit" value="maybe" id="maybe">Maybe</label>
+            <p>Comments:<br>
+                <textarea cols="50" rows="4" placeholder="Write here..."></textarea>
+            </p>
+            <label><input type="checkbox" name="sign" value="sign">Sign me up for email updates</label><br><br>
+            <button type="submit" value="submit" class="button">Submit review</button>
+        </fieldset>
+    </form>
+</body>
+</html>
